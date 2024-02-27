@@ -1,0 +1,119 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: change-colors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    transform: translateX();
+    background-image: url(/day42/classwork/419233153_1547401929393173_6159265659557748989_n.jpg);
+    background-size: cover;
+    background-position: center;
+
+} 
+.square p{
+    position: relative;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: 0px 0px  20px blue;
+    color: red;
+}
+/* .square:hover{
+    background-color: blue;
+    transform: translateX(400px);
+
+} */
+
+@keyframes change-colors{
+    /* from{
+        background-color: red;
+        border-radius: 20px;
+    }
+    to{ 
+        transform: translateY(-100px);
+        background-color: blue;
+        box-shadow: 0px 0px 50px blue;
+        border-radius: 50%;
+         */
+
+
+    /* 0%{
+        background-color: red;
+        border-radius: 20px;
+        box-shadow: 0px 0px 1px red;
+    }
+    50%{
+        background-color: blue;
+        border-radius: 50%;
+        transform: translateY(-200px);
+        box-shadow: 0px 0px 50px blue;
+    }
+    100%{
+        background-color: red;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px red;
+    } */
+
+
+    /* 0%{
+        background-color: red;
+        border-radius: 50px;
+        box-shadow: 0px 0px 10px red;
+    }
+    30%{
+        background-color: blue;
+        border-radius: 50%;
+        transform: translateY(-200px);
+        box-shadow: 0px 0px 50px blue;
+    }
+    60%{
+        background-color: blue;
+        border-radius: 50%;
+        transform: translateX(-100px);
+        box-shadow: 0px 0px 50px blue;
+    }
+    100%{
+        background-color: red;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px red;
+    } */
+    
+0%{
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px red;
+    transform: translateX(100px);
+}
+40%{
+    border-radius: 50%;
+    transform: rotate(180deg) translateX(300px);
+
+}
+80%{
+    border-radius: 50%;
+    transform: rotate(180deg) translateX(300px);
+
+}
+100%{
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px red;
+    transform: rotate(360deg) translateX(100px);
+
+}
+}
+
+
+
+
