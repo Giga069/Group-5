@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-container{
+    padding: 10px;
+    width: 800px;
+    height: 300px;
+    background-color: rgb(0, 153, 255);
+    
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.child-container{
+    text-align: center;
+    font-size: 50px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
